@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.from_area{
+    background-color: aqua;
+    width: 400px;
+    height: 600px;
+}
+form{
+    margin: 50px 40px;
+}
+label{
+    font-size: 17px;
+    font-weight: bold;
+}
+input{
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+}
+button{
+    margin-top: 15px;
+    padding: 8px 15px;
+    margin-right: 12px;
+    background: green;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+span button{
+    margin-top: 15px;
+    padding: 8px 15px;
+    margin-right: 12px;
+    background: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
